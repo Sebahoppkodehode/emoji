@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.emoji-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center content horizontally */
+  margin-top: 20px;
+  height: 400px; /* Fixed height to prevent vertical movement */
+}
+
+.emoji-search-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.emoji-search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.emoji-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.emoji-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.emoji-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
